@@ -1,0 +1,10 @@
+[package]
+name = "bitcoin_tx_counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoincore-rpc = "0.18.0"
+rayon = "1.5.1"
+lazy_static = "1.4.0"
+dotenv = "0.15.0"
